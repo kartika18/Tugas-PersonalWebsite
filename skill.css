@@ -43,7 +43,7 @@
 }
 
 #skill-content h5,
-.exp-header h5 {
+#experience-content > h5 {
   font-size: 24px;
 }
 
@@ -71,9 +71,7 @@
 }
 
 .skill-list li,
-.exp-first-left p,
-.exp-first-left li,
-.exp-second-left li {
+.exp-header h5 {
   font-size: larger;
   line-height: 1.6;
 }
