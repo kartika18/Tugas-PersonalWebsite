@@ -38,7 +38,8 @@
 }
 
 #skill-content,
-.exp-first {
+.exp-first,
+.exp-second {
   margin-bottom: 24px;
 }
 
@@ -49,7 +50,7 @@
 
 #skill-content h5,
 .exp-header {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .skill-list {
@@ -74,4 +75,22 @@
 .exp-header h5 {
   font-size: larger;
   line-height: 1.6;
+}
+
+.exp-content {
+  align-items: center;
+}
+
+.exp-first-left {
+  width: 50%;
+}
+
+.exp-first-right,
+.exp-second-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.exp-first-right img:first-child {
+  margin-right: 12px;
 }
