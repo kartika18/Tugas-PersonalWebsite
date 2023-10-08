@@ -29,6 +29,10 @@
   margin-right: 48px;
 }
 
+.list-navbar a:last-child {
+  margin-right: 0;
+}
+
 .list-navbar a:hover {
   color: var(--color-accent);
 }

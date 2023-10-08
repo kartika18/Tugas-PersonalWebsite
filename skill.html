@@ -9,14 +9,12 @@
   <body>
     <header id="navbar">
       <h1>Kartika</h1>
-      <nav>
-        <ul class="list-navbar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="skill.html">Skill</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
-        </ul>
+      <nav class="list-navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skill.html">Skill</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact Me</a>
       </nav>
     </header>
     <section id="skill">
@@ -39,12 +37,14 @@
       </div>
       <div id="experience-content">
         <h5>Experience</h5>
-        <div class="exp-first">
-          <div class="exp-header">
+        <div id="exp-detail">
+          <div id="exp-header">
             <h5>Course Coding Studio Fundamental Front End Web</h5>
-            <button>More Info</button>
+            <button id="btn-expand" onclick="toogleDetail(event)">
+              More Info
+            </button>
           </div>
-          <div class="exp-content">
+          <div id="exp-content">
             <div class="exp-first-left">
               <div>
                 <p>Nov 2022 - Feb 2023</p>
@@ -63,12 +63,14 @@
             </div>
           </div>
         </div>
-        <div class="exp-second">
-          <div class="exp-header">
+        <div id="exp-detail">
+          <div id="exp-header">
             <h5>Course Acodemia JS React JS</h5>
-            <button>More Info</button>
+            <button id="btn-expand" onclick="toogleDetail(event)">
+              More Info
+            </button>
           </div>
-          <div class="exp-content">
+          <div id="exp-content">
             <div class="exp-second-left">
               <ul>
                 <li>Building To Do List Using React JS</li>
@@ -81,5 +83,7 @@
         </div>
       </div>
     </section>
+
+    <script src="script_skill.js"></script>
   </body>
 </html>

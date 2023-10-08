@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
+
+:root {
+  --color-accent: #ddb967;
+}
+
+* {
+  font-family: "Gabarito";
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #e0dfd5;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 36px 156px;
+}
+
+.list-navbar {
+  display: flex;
+  list-style: none;
+}
+
+.list-navbar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 48px;
+}
+
+.list-navbar a:last-child {
+  margin-right: 0;
+}
+
+.list-navbar a:hover {
+  color: var(--color-accent);
+}
+
+#blog-content {
+  margin: 60px 360px;
+}
+
+#blog-content h1 {
+  font-size: 36px;
+}
+
+#profile-blog {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+  gap: 12px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+}
+
+.time-posted,
+.status-views,
+.status-comment {
+  display: flex;
+  gap: 6px;
+}
+
+#status-blog {
+  display: flex;
+  gap: 24px;
+  margin: 12px 0;
+}
+
+#image-blog {
+  margin: 24px 0;
+}
+
+#content-blog {
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 24px 0;
+}

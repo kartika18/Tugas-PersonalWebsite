@@ -29,6 +29,10 @@
   margin-right: 48px;
 }
 
+.list-navbar a:last-child {
+  margin-right: 0;
+}
+
 .list-navbar a:hover {
   color: var(--color-accent);
 }
@@ -38,8 +42,7 @@
 }
 
 #skill-content,
-.exp-first,
-.exp-second {
+.exp-detail {
   margin-bottom: 24px;
 }
 
@@ -49,7 +52,7 @@
 }
 
 #skill-content h5,
-.exp-header {
+#exp-header {
   margin-bottom: 24px;
 }
 
@@ -58,27 +61,37 @@
   justify-content: space-evenly;
 }
 
-.exp-header,
-.exp-content {
+#exp-header,
+#exp-content {
   display: flex;
   justify-content: space-between;
 }
 
-.exp-header button {
+#btn-expand {
   background-color: var(--color-accent);
   border: none;
   padding: 12px 16px;
   border-radius: 24px;
+  cursor: pointer;
+}
+
+#btn-expand:hover {
+  background-color: black;
+  color: var(--color-accent);
 }
 
 .skill-list li,
-.exp-header h5 {
+#exp-header h5 {
   font-size: larger;
   line-height: 1.6;
 }
 
-.exp-content {
+#exp-content {
   align-items: center;
+  display: none;
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+  margin-bottom: 24px;
 }
 
 .exp-first-left {
