@@ -58,7 +58,7 @@
 
 .time-posted,
 .status-views,
-.status-comment {
+.status-likes {
   display: flex;
   gap: 6px;
 }
@@ -77,4 +77,10 @@
   font-size: 20px;
   line-height: 1.6;
   margin: 24px 0;
+}
+
+#note-github-blog {
+  border: 3px solid var(--color-accent);
+  border-radius: 24px;
+  padding: 24px 36px;
 }

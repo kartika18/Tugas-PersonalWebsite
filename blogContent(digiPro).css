@@ -58,7 +58,7 @@
 
 .time-posted,
 .status-views,
-.status-comment {
+.status-likes {
   display: flex;
   gap: 6px;
 }

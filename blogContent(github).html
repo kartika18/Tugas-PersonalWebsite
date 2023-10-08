@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="blogContent(digiPro).css" />
+    <link rel="stylesheet" href="blogContent(github).css" />
   </head>
   <body>
     <header id="navbar">
@@ -18,7 +18,7 @@
       </nav>
     </header>
     <section id="blog-content">
-      <h1>Work On GitHub</h1>
+      <h1>Work On GitHub!</h1>
       <div id="profile-blog">
         <div class="profile-pic">
           <img
@@ -30,9 +30,9 @@
         <div class="profile-text">
           <p>Kartika Sari</p>
           <div class="time-posted">
-            <p>Sept 29, 2023</p>
+            <p>Oct 1, 2023</p>
             <img src="assets/point-filled.svg" alt="icon point" />
-            <p>19.23</p>
+            <p>13.28</p>
           </div>
         </div>
       </div>
@@ -40,11 +40,11 @@
       <div id="status-blog">
         <div class="status-views">
           <img src="assets/view.svg" alt="views icon" />
-          <p>238</p>
+          <p>120</p>
         </div>
-        <div class="status-comment">
-          <img src="assets/comment.svg" alt="comment icon" />
-          <p>8</p>
+        <div class="status-likes">
+          <img src="assets/like-bold.svg" alt="likes icon" />
+          <p>2</p>
         </div>
       </div>
       <hr />
@@ -58,20 +58,177 @@
         Photo by
         <a
           href="https://unsplash.com/@afgprogrammer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          style="color: black"
           >Mohammad Rahmani</a
         >
         on
         <a
           href="https://unsplash.com/photos/q1p2DrLBtko?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          style="color: black"
           >Unsplash</a
         >
       </div>
       <div id="content-blog">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          maxime sint. Qui sit amet molestiae. Quia ipsum cum deleniti nemo
-          temporibus dolor quibusdam facere itaque debitis. Fuga alias atque
-          dolor!
+          <span style="font-size: x-large; font-weight: 500">GitHub</span> is a
+          famous platform that's been used by software developer all around the
+          world. GitHub provides a wide range of tools and services for managing
+          software projects, collaborating with teams, and storing source code
+          centrally.
+        </p>
+        <br />
+        <p>These are some of the great features of GitHub.</p>
+        <ol type="1">
+          <li>
+            Version Control
+            <p>
+              GitHub is based on the Git version control system, which allows
+              developers to track changes in source code. This make easier for
+              developers to collaborating with their team and managing project
+              code eficiently.
+            </p>
+          </li>
+          <li>
+            Repository
+            <p>
+              GitHub provide a store that called "repository" for project source
+              code. Every project has their own repository.
+            </p>
+          </li>
+          <li>
+            Collaboration
+            <p>
+              Developers team can collaborate in one repository GitHub. They can
+              contribute to write the code, pull request, review other team
+              member's code, and discuss things through comment section.
+            </p>
+          </li>
+          <li>
+            Issue Tracker
+            <p>
+              GitHub also has a tracker to track problems so that the team can
+              report, track, and handling the problem or task that needs to be
+              done.
+            </p>
+          </li>
+          <li>
+            GitHub Pages
+            <p>
+              GitHub pages is a hosting service that developers use to create
+              statistics websites from their GitHub repositories. This is very
+              useful for creating a project or a blog documentation.
+            </p>
+          </li>
+          <li>
+            Integration
+            <p>
+              Jenkins, Travis CI, and Docker are some of the services that have
+              strong integration with GitHub. This allows automation and
+              continuation testing for the process of developing software.
+            </p>
+          </li>
+          <li>
+            Open Source
+            <p>
+              GitHub has so many software project that is open source or it's
+              accessible to anyone.
+            </p>
+          </li>
+        </ol>
+        <br />
+
+        <div id="note-github-blog">
+          <p>
+            <span style="color: #d1603d">NOTE!</span> <br />
+            <strong>Git and GitHub is different.</strong> Git runs locally, but
+            GitHub runs on the internet. Also to help better understanding, just
+            think as like Git is a tool and GitHub is a service that using that
+            tool.
+          </p>
+        </div>
+
+        <br />
+        <p>
+          Next, I'm gonna show you how to store your project source code from
+          local computer to repository on GitHub. We will use VSCode and GitHub
+          Repository in here.
+        </p>
+        <ol>
+          <li>
+            Open
+            <a href="https://github.com/" style="color: black">GitHub</a> on
+            your browser and Sign Up or Log In.
+          </li>
+          <li>
+            <p>Create New Repository</p>
+            <img src="assets/step-2.png" width="700px" alt="step 2" />
+          </li>
+          <li>
+            <p>
+              For beginner, just fill the name of repository that appropriate
+              with your project. After that, click "Create Repository".
+            </p>
+            <img src="assets/step-3.png" width="700px" alt="step 3" />
+          </li>
+          <li>
+            <p>Then, you will see this.</p>
+            <img src="assets/step-4.png" width="700px" alt="step 4" />
+          </li>
+          <li>
+            <p>
+              Afterwards, follow the command line that said "create new
+              repository on the command line" one by one in the Terminal on
+              VSCode. The terminal on VSCode looks like this.
+            </p>
+            <img src="assets/step-5.png" width="700px" alt="step 5" />
+          </li>
+          <li>
+            For your information, I usually use these steps to push my code to
+            GitHub. <br />
+            <ol>
+              <li>
+                For the first time of pushing to GitHub
+                <ul>
+                  <li><code>git init</code></li>
+                  <li><code>git add .</code></li>
+                  <li><code>git commit -m "<em>message</em>"</code></li>
+                  <li>
+                    <code
+                      >git remote add origin <em>linkRepositoryGitHub</em></code
+                    >
+                  </li>
+                  <li><code>git branch -M main</code></li>
+                  <li><code>git push -u origin main</code></li>
+                </ul>
+              </li>
+              <li>
+                Second time and so on
+                <ul>
+                  <li>git add .</li>
+                  <li>git commit -m "<em>message</em>"</li>
+                  <li>git push</li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <p>
+              After you write your code and used the terminal to push your code
+              to GitHub Repository, it will look like this if your success.
+            </p>
+            <img src="assets/step-6.png" width="700px" alt="step 6" />
+          </li>
+          <li>Now you're done!</li>
+        </ol>
+        <br />
+        <p>
+          So, that's all I can give you! <br />
+          I hope this simple article can give you more understanding about
+          GitHub. If you have something to say, don't hesitate to contact me
+          through
+          <a href="contact.html" style="color: #ddb967">this!</a>
+          <br />
+          Thank you so much~~
         </p>
       </div>
     </section>
